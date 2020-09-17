@@ -1,0 +1,98 @@
+http://cromwell.com/php/rest_api/api/customer/get.php?id=4
+
+==================================================================
+
+http://cromwell.com/php/rest_api/api/customer/post.php
+
+Content-Type      application/json
+
+{
+    "forenames": "Roger",
+    "surname": "McRoger",
+    "title": "Mr",
+    "date_of_birth": "1960-10-07",
+    "mobile_number": "01332 360832",
+    "phone_number": "01332 360832",
+    "email_address": "martin@mcfartin.com",
+    "password": "password"
+}
+
+===================================================================
+
+http://cromwell.com/php/rest_api/api/customer/put.php
+
+Content-Type      application/json
+
+{
+    "id": 1,
+    "forenames": "Arthur",
+    "surname": "McArthur",
+    "title": "Mr",
+    "date_of_birth": "1960-10-07",
+    "mobile_number": "07711 693398",
+    "phone_number": "01332 360832",
+    "email_address": "martin@mcfartin.com",
+    "password": "password"
+}
+
+===================================================================
+
+http://cromwell.com/php/rest_api/api/customer/delete.php
+
+Content-Type      application/json
+
+{
+    "id": 4,
+}
+
+===================================================================
+
+http://cromwell.com/php/rest_api/api/address/get.php?id=1
+
+===================================================================
+
+http://cromwell.com/php/rest_api/api/address/post.php
+
+Content-Type      application/json
+
+{
+    "contact_id": "1",
+    "contact_name": "Erwin Rommel",
+    "business_name": "Afrika Korps",
+    "address_line1": "Afrika Corps HQ",
+    "address_line2": "22 Brothel St",
+    "mobile_number": "Tobruk",
+    "county": "Tobruk",
+    "country": "LBY",
+    "postcode": "TB1 1LB",
+    "address_type": "A"
+}
+
+===================================================================
+
+http://cromwell.com/php/rest_api/api/address/put.php
+
+Content-Type      application/json
+
+{
+    "contact_id": "1",
+    "contact_name": "Johannes Erwin Eugen Rommel",
+    "business_name": "Afrika Korps",
+    "address_line1": "Afrika Corps HQ",
+    "address_line2": "22 Brothel St",
+    "mobile_number": "Tobruk",
+    "county": "Tobruk",
+    "country": "LBY",
+    "postcode": "TB1 1LB",
+    "address_type": "A"
+}
+
+===================================================================
+
+http://cromwell.com/php/rest_api/api/address/delete.php
+
+Content-Type      application/json
+
+{
+    "id": 2,
+}
